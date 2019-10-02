@@ -1,0 +1,31 @@
+GET turmas - Listar todas as turmas
+GET turmas/{id}/disciplinas - Listar todas as disciplinas da turma
+Output:
+[
+	{
+		disciplina: "APA"
+		turma: "Oferta 11"
+	},
+	{
+		disciplina: "NET"
+		turma: "Oferta 11"
+	}
+]
+
+GET disciplinas/{id}
+Output:
+{
+	disciplina: "APA"
+	turma: "Oferta 11"
+}
+
+POST matriculas - Efetivar a matricula
+Input:
+{
+	alunoId: 1221278,
+	disciplinaId: "APA"
+}
+
+DELETE matriculas/{id}
+
+GET alunos/{id}/disciplinas
