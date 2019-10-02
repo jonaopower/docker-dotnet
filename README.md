@@ -14,4 +14,4 @@ Neste exemplo, chamamos nossa imagem de "***meu_app_dot_net***" cuja versão ser
 Crie um container utilizando a imagem recém criada. 
 Este container será publicado na porta 8000/tcp do host.
 
-`$ docker run -d -it --rm -p 8000:80 --name dot_net_app mcr.microsoft.com/dotnet/core/samples:aspnetapp`
+`$ docker run -d -it --rm -p 8000:80 --name dot_net_app meu_app_dot_net:v1.0`
